@@ -52,7 +52,7 @@ https://japan-product-retail.github.io/jpr-company-profile/
 
 | 項目 | 現在の表示 | 確認箇所 |
 |---|---|---|
-| 古物商許可番号 | `［確認中］` | `index.html` の会社概要 |
+| 古物商許可番号 | `第971052200606号` | `index.html` の会社概要 |
 | メールアドレス | `contact@japan-product-retail.com` | meta以外の連絡先、JSON-LD |
 | 電話番号 | `090-9784-7764` | 会社概要、連絡先、JSON-LD |
 | 所在地の詳細表記 | `沖縄県中頭郡北谷町` | 本文、会社概要、JSON-LD |
