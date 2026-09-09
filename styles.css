@@ -7,6 +7,7 @@
   --navy: #273a43;
   --navy-light: #38505a;
   --gold: #8a7147;
+  --gold-text: #7a623d;
   --gold-light: #c8b58d;
   --line: #d8cfbe;
   --line-dark: #53646a;
@@ -187,10 +188,19 @@ a:hover {
   transition: transform 180ms ease;
 }
 
+.global-nav a:hover {
+  color: var(--gold-text);
+}
+
 .global-nav a:hover::after,
 .global-nav a:focus-visible::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+#top,
+#main-content {
+  scroll-margin-top: 10rem;
 }
 
 .hero {
@@ -344,6 +354,10 @@ a:hover {
   background: var(--paper-deep);
 }
 
+.section:not(.section-dark) .eyebrow {
+  color: var(--gold-text);
+}
+
 .section-heading {
   display: grid;
   grid-template-columns: 64px minmax(0, 1fr);
@@ -417,7 +431,7 @@ a:hover {
 }
 
 .about-facts dt {
-  color: var(--gold);
+  color: var(--gold-text);
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -695,7 +709,7 @@ a:hover {
 
 .contact-label {
   margin-bottom: 0.35rem;
-  color: var(--gold);
+  color: var(--gold-text);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -928,7 +942,11 @@ a:hover {
   }
 
   .hero h1 {
-    font-size: 2.15rem;
+    font-size: 2rem;
+  }
+
+  .hero h1 br {
+    display: inline;
   }
 
   .section-heading {
