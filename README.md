@@ -13,6 +13,7 @@ HTMLとCSSで構成する静的サイトです。外部フォント、実行用J
 | ファイル | 内容 |
 |---|---|
 | `index.html` | 会社紹介、取扱分野、会社概要、連絡先、SEOメタ情報、Organization構造化データ |
+| `security/index.html` | Security & Infrastructure、責任者、担当範囲、セキュリティ連絡先 |
 | `styles.css` | レスポンシブ表示、キーボードフォーカス、印刷用スタイル |
 | `sitemap.xml` | 公式ページのサイトマップ |
 | `robots.txt` | クロール設定とサイトマップURLの記述 |
