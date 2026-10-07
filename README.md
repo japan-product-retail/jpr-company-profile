@@ -4,7 +4,7 @@
 
 ## 公式サイト
 
-[JPプロダクトリテイリング合同会社](https://japan-product-retail.github.io/jpr-company-profile/)
+[JPプロダクトリテイリング合同会社](https://japan-product-retail.com/)
 
 ## 構成
 
@@ -20,7 +20,7 @@ HTMLとCSSで構成する静的サイトです。外部フォント、実行用J
 | `robots.txt` | クロール設定とサイトマップURLの記述 |
 | `google75e87b349fbc0edb.html` | Googleのサイト所有権確認ファイル |
 
-GitHub Pagesのproject siteでは、このリポジトリ内の `robots.txt` はサブディレクトリに配置されます。Googleのクロール制御にはホスト直下の `robots.txt` が参照されます。
+`robots.txt` と `sitemap.xml` は公式ドメインのルートで公開しています。
 
 ## ローカルでの表示
 

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://japan-product-retail.github.io/jpr-company-profile/</loc>
+    <loc>https://japan-product-retail.com/</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://japan-product-retail.github.io/jpr-company-profile/security/</loc>
+    <loc>https://japan-product-retail.com/security/</loc>
   </url>
   <url>
-    <loc>https://japan-product-retail.github.io/jpr-company-profile/company/</loc>
+    <loc>https://japan-product-retail.com/company/</loc>
   </url>
 </urlset>
