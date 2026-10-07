@@ -727,7 +727,8 @@ a:hover {
   color: var(--ink-soft);
 }
 
-.security-page h1 {
+.security-page h1,
+.company-page h1 {
   margin: 0 0 2rem;
   font-family: var(--serif);
   font-size: clamp(2rem, 4.5vw, 3.5rem);
@@ -746,15 +747,18 @@ a:hover {
   margin: 0;
 }
 
-.security-page .prose p {
+.security-page .prose p,
+.company-page .prose p {
   line-height: 1.9;
 }
 
-.security-block {
+.security-block,
+.company-block {
   margin-top: 3rem;
 }
 
-.security-block h2 {
+.security-block h2,
+.company-block h2 {
   margin: 0 0 1rem;
   font-family: var(--serif);
   font-size: clamp(1.5rem, 2.5vw, 2rem);
@@ -771,8 +775,13 @@ a:hover {
   margin-top: 0.5rem;
 }
 
-.security-contact a {
+.security-contact a,
+.company-page a {
   overflow-wrap: anywhere;
+}
+
+.company-page .company-table-wrap {
+  margin-inline-start: 0;
 }
 
 .site-footer {
